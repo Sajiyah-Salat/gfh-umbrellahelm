@@ -1,0 +1,12 @@
+dependencies:
+- name: aws-ebs-csi-driver
+  repository: https://kubernetes-sigs.github.io/aws-ebs-csi-driver/
+  version: 2.31.0
+- name: aws-load-balancer-controller
+  repository: https://aws.github.io/eks-charts
+  version: 1.4.5
+- name: external-secrets
+  repository: https://charts.external-secrets.io
+  version: 0.4.0
+digest: sha256:b467cd2fdb6063c719db51ef807c13bc5c2bb57237afaf1d04c1441c8afa63be
+generated: "2024-06-11T17:34:16.637085+05:30"
