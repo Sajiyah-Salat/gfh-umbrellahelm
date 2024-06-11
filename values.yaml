@@ -1,5 +1,8 @@
 service:
   port: 80
+
+serviceAccount:
+  create: false
   
 aws-ebs-csi-driver:
   storageClasses:
