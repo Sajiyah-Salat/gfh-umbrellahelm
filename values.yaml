@@ -1,3 +1,6 @@
+service:
+  port: 80
+  
 aws-ebs-csi-driver:
   storageClasses:
     - name: ebs-sc
