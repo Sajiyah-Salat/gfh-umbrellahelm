@@ -1,8 +1,19 @@
+# values.yaml
+
 service:
   port: 80
 
 serviceAccount:
   create: false
+
+ingress:
+  enabled: true
+
+autoscaling:
+  enabled: false
+
+deployment:
+  enabled: false
   
 aws-ebs-csi-driver:
   storageClasses:
